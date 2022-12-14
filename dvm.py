@@ -1,3 +1,5 @@
+booksavailable=[['Action','the call of the wild',123456789,'Jack London'],['Action','The Three Musketeers',234567890,'Alexandre Dumas'],['Comic','Watchmen',345678901,'Alan Moore'],['Comic','The walking dead',456789012,'Robert Kirkman'],['Mystery','The Adventures of Sherlock Holmes',567890123,'Sir Arthur Canon Doyle'],['Mystery','The night fire',678901234,'Michael Conelly']]
+# User ID: 
 class books:
     def __init__(self,booksavailable):
         self.books = booksavailable
@@ -11,7 +13,7 @@ class books:
 
         if a not in self.books:
             print('Thank You for the return!')
-            
+
         else:
             print('Books has already been submitted!')
 
@@ -22,6 +24,7 @@ class books:
         else:
             print('Book is not available')
 #let the list of books in the form of: a=[[Genre, Book name, ISBN no., Author]]
+a=[['Action','the call of the wild',123456789,'Jack London'],['Action','The Three Musketeers',234567890,'Alexandre Dumas'],['Comic','Watchmen',345678901,'Alan Moore'],['Comic','The walking dead',456789012,'Robert Kirkman'],['Mystery','The Adventures of Sherlock Holmes',567890123,'Sir Arthur Canon Doyle'],['Mystery','The night fire',678901234,'Michael Conelly']]
 class shelf:
     def display(self):
         m=[]
